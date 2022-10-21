@@ -11,7 +11,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT nasname, shortname, type FROM nas ORDER BY id";
+$sql = "SELECT id, nasname, shortname, type FROM nas ORDER BY id";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
