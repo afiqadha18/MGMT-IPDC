@@ -1,6 +1,8 @@
 # MGMT-IPDC<br>
 Radius and Ansible Hub for IPDC<br>
 <br>
+Included the Equipment List in the portal.
+<br>
 <br>
 ### Git Command<br>
 git init<br>
